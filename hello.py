@@ -41,3 +41,20 @@ print("Day 3:", followers)
 # Yes
 #c. What is the use of += or -= operators?
 # To add/subtract from the inital value 
+
+username = input("Enter Username: ")
+age = input("Enter Age: ")
+category = input("Enter Content Category: ")
+
+print("\nInstagram Profile")
+print("====================")
+print("Username: ", username)
+print("Age: ", age)
+print("Category: ", category)
+
+
+#a. How does input() captures user’s input
+# The program pauses and allows the user to type
+#b. Is the program dynamic now or still hard coded?
+# dynamic
+#c. Try to run multiple types with different inputs
