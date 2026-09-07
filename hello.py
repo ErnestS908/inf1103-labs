@@ -43,7 +43,7 @@ print("Day 3:", followers)
 # To add/subtract from the inital value 
 
 username = input("Enter Username: ")
-age = input("Enter Age: ")
+age = int(input("Enter Age: "))
 category = input("Enter Content Category: ")
 
 print("\nInstagram Profile")
@@ -52,9 +52,16 @@ print("Username: ", username)
 print("Age: ", age)
 print("Category: ", category)
 
-
 #a. How does input() captures user’s input
 # The program pauses and allows the user to type
 #b. Is the program dynamic now or still hard coded?
 # dynamic
 #c. Try to run multiple types with different inputs
+
+if age>40 and category == "fun":
+    print("You are old what is fun for you?")
+
+#a. What is the return type for input()
+# String
+#b. How are different conditions being checked?
+# It checks if the conditions in the if statement is true and executes it, if false it ignores it
