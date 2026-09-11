@@ -8,6 +8,8 @@ while 1:
 
     elif user_input.isdigit() == 1:
         stock = int(user_input)
+        inventory += stock
+        print("Current stock: ",inventory )
 
     elif user_input.isdigit() == 0:
         print("Error please enter a non-negative integer")
