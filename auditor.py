@@ -6,8 +6,11 @@ while 1:
         print("Ending program")
         break
 
-    else:
+    elif user_input.isdigit() == 1:
         stock = int(user_input)
+
+    elif user_input.isdigit() == 0:
+        print("Error please enter a non-negative integer")
   
 
 
