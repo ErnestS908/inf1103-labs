@@ -10,6 +10,9 @@ while 1:
         stock = int(user_input)
         inventory += stock
         print("Current stock: ",inventory )
+        if inventory>500:
+            print("Inventory exceeds 500")
+            break
 
     elif user_input.isdigit() == 0:
         print("Error please enter a non-negative integer")
